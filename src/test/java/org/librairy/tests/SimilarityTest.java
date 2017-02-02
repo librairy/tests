@@ -7,6 +7,7 @@ import io.swagger.client.api.PartsapicontrollerApi;
 import io.swagger.client.model.*;
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,6 +22,7 @@ import java.util.stream.LongStream;
 /**
  * @author Badenes Olmedo, Carlos <cbadenes@fi.upm.es>
  */
+@Ignore
 public class SimilarityTest {
 
     private static final Logger LOG = LoggerFactory.getLogger(ProvisionTest.class);

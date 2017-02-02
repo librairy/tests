@@ -141,12 +141,6 @@
                 </dependencies>               
             </plugin>
 
-            <!-- Spring-Boot Unique Jar -->
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-
             <!-- Docker Plugin -->
             <plugin>
                 <groupId>com.spotify</groupId>
